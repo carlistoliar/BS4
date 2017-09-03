@@ -1,4 +1,6 @@
-
 .idea/
 /.gitignore
 /node_modules/
+/bootstrap_sandbox_starter/
+.DS_Store
+bootstrap_sandbox_starter/

@@ -1,5 +1,19 @@
 # Bs4Tut
 
+This is am Angular 4 and Bootstrap 4 betta set up tutorial
+
+Installing Angular 4:
+
+scaffolding and app
+
+Installing support for Bootstrap 4:
+
+testing
+
+deployment
+
+.....
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Development server
