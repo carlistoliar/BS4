@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-basic-typography',
   templateUrl: './basic-typography.component.html',
-  styleUrls: ['./basic-typography.component.css']
+  styles: [``]
 })
 export class BasicTypographyComponent implements OnInit {
 

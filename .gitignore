@@ -4,3 +4,5 @@
 /bootstrap_sandbox_starter/
 .DS_Store
 bootstrap_sandbox_starter/
+/dist/
+dist/
