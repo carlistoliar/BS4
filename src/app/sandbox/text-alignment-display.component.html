@@ -3,61 +3,91 @@
   <!--########################START HERE#########################-->
 
   <!-- JUSTIFY -->
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ad deleniti, placeat cumque, maiores fugiat tenetur ea voluptas voluptatem odio odit, dicta. Eaque reiciendis sed placeat omnis doloribus, corrupti eius.</p>
-
+  <h3>Justify</h3>
+  <code>&lt;p class="text-justify"&gt;Lorem ...&lt;/&gt;</code>
+  <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aut dignissimos doloribus facere facilis incidunt inventore laborum libero minima nesciunt repellat sequi temporibus unde, ut veniam veritatis vero voluptates voluptatibus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa cumque dolor, dolorem ea eos error et fugit id illo inventore iure libero nulla numquam quia quidem quod, similique tenetur.</p>
+  <p class="note">Class text=justify will justify the text left and right</p>
   <br><br>
 
   <!-- ALIGNMENT -->
-  <p>Text aligned left</p>
-  <p>Text aligned center</p>
-  <p>Text aligned right</p>
+  <h3>Alignment</h3>
+  <code>&lt;p class text-left (center or right)&gt;&lt;/&gt;</code>
+  <p class="text-left"> Text aligned left</p>
+  <p class="text-center">Text aligned center</p>
+  <p class="text-right">Text aligned right</p>
+  <p class="note">Class text-left, right, center aligns the text</p><br>
 
   <!-- RESPONSIVE ALIGN -->
-  <p>Right aligned on small or larger</p>
-  <p>Right aligned on medium or larger</p>
-  <p>Right aligned on large or larger</p>
-  <p>Right aligned on xl or larger</p>
+  <h3>Responsive Align</h3>
+  <code>&lt;p class text-sm (md, lg, xl)-right(left, center)&gt;&lt;/&gt;</code>
+  <p class="text-sm-right">Right aligned on small or larger</p>
+  <p class="text-md-right">Right aligned on medium or larger</p>
+  <p class="text-lg-right">Right aligned on large or larger</p>
+  <p class="text-xl-right">Right aligned on xl or larger</p>
 
-  <p>Left aligned text on small or larger</p>
-  <p>Left aligned text on medium or larger</p>
-  <p>Left aligned text on large or wider</p>
-  <p>Left aligned text on extra large or wider</p>
+  <p class="text-sm-left">Left aligned text on small or larger</p>
+  <p class="text-md-left">Left aligned text on medium or larger</p>
+  <p class="text-lg-left">Left aligned text on large or wider</p>
+  <p class="text-xl-left">Left aligned text on extra large or wider</p>
 
-  <p>Center aligned text on small or larger</p>
-  <p>Center aligned text on medium or larger</p>
-  <p>Center aligned text on large or wider</p>
-  <p>Center aligned text on extra large or wider</p>
-
+  <p class="text-sm-center">Center aligned text on small or larger</p>
+  <p class="text-md-center">Center aligned text on medium or larger</p>
+  <p class="text-lg-center">Center aligned text on large or wider</p>
+  <p class="text-xl-center">Center aligned text on extra large or wider</p>
+  <p class="note">Class text-sm, md, lg, xl will align text based on media breaks (change the browser window width so see changes)</p>
   <br><br>
 
   <!-- VERTICAL ALIGNMENT -->
+  <h3>Vertical Align</h3>
+  <code>&lt;span class="align-xxx"&gt;...&lt;/&gt;</code><br>
   <span class="align-baseline">baseline</span>
   <span class="align-top">top</span>
   <span class="align-bottom">bottom</span>
   <span class="align-middle">middle</span>
   <span class="align-text-top">text-top</span>
   <span class="align-text-bottom">text-bottom</span>
-
+  <p class="note">Class align-baseline, middle, top, bottom etc</p>
   <br><br>
 
   <!-- TURN BLOCK TO INLINE -->
-  <h1>Hello</h1>
-  <h1>Goodbye</h1>
-
+  <h3>Turn Block Into Inline</h3>
+  <h1 class="bg-success">Hello</h1>
+  <code>&lt;h1 class="d-inline"&gt;&lt;hello/&gt;</code><br>
+  <h1 class="d-inline bg-success">Hello</h1>
+  <h1 class="d-inline bg-success">Goodbye</h1>
+  <p></p>
+  <p class="note">Class d-inline pushes block elements into the same line</p>
   <br><br>
 
   <!-- TURN INLINE TO BLOCK -->
-  <span>Block</span>
+  <h3>Turn Inline Into Block</h3>
 
+  <span class="bg-success">Block</span><br>
+  <code>&lt;span class="d-block"&gt;&lt;/span&gt;</code>
+  <span class="d-block bg-success">Block</span>
+  <p></p>
+  <p class="note">Class d-block turn inline element like "span" into block element like h1</p>
   <br><br>
 
   <!-- INLINE BLOCK -->
-  <div>
+  <h3>Turn Inline Block</h3>
+  <div class="bg-success">
     <h3>Hello</h3>
     This is inline
   </div>
-  <div>
+  <div class="bg-success">
     <h3>Hello</h3>
     This is inline
   </div>
+  <code>&lt;div class="d-inline-block&gt;&lt;/div&gt;</code><br>
+  <div class="d-inline-block bg-success">
+    <h3>Hello</h3>
+    This is inline
+  </div>
+  <div class="d-inline-block bg-success">
+    <h3>Hello</h3>
+    This is inline
+  </div>
+  <p class="note"></p><br>
+
 </div>

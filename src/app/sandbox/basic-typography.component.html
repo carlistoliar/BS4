@@ -5,62 +5,102 @@
 
   <!-- HEADINGS -->
   <h1>Heading One</h1>
+  <code>&lt;h1&gt;Heading One&lt;small class="text-muted" &gt;Subtext&lt;/small&gt;&lt;/h1&gt;</code>
+  <h1>Heading One<small class="text-muted"> Subtext</small></h1>
   <h2>Heading Two</h2>
   <h3>Heading Three</h3>
-  <h4>Heading Four</h4>
+  <h4 >Heading Four</h4>
+  <code>&lt;h4 class="h2" &gt;Heading Four&lt;/h4&gt;</code>
+  <h4 class="h2">Heading Four</h4>
   <h5>Heading Five</h5>
   <h6>Heading Six</h6>
+  <p class="note">
+    Class text-muted can change the coloring of any text
+    <br>
+    Class h1, h2, h3... can override an h tag</p>
+  <br>
 
   <!-- DISPLAY CLASSES -->
-  <h1>Display Heading 1</h1>
-  <h1>Display Heading 2</h1>
-  <h1>Display Heading 3</h1>
-  <h1>Display Heading 4</h1>
+  <code>&lt;h1 class="display-1"&gt;Display Heading 1&lt;/h1&gt;</code>
+  <h1 class="display-1">Display Heading 1</h1>
+  <h1 class="display-2">Display Heading 2</h1>
+  <h1 class="display-3">Display Heading 3</h1>
+  <h1 class="display-4">Display Heading 4</h1>
+  <p class="note">Calls display-x makes really large text </p>
+  <br>
 
   <!-- PARAGRAPHS -->
+  <h3>Paragraphs</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
-
+  <p class="note">Standard paragraph</p><br>
   <!-- LEAD -->
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
-
+  <code>&lt;p class="lead"&gt;Lorem ipsum...&lt;/p&gt;</code>
+  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
+  <p class="note">Class lead make a paragraph that is more visible</p><br>
   <!-- STYLE CLASSES -->
-  <p>Bold Text</p>
-  <p>Normal Text</p>
-  <p>Italic Text</p>
+  <h3>Style Clasess</h3>
+  <code>&lt;p class="font-weight-bold"&gt;Bold Text&lt;/p&gt;</code>
+  <p class="font-weight-bold">Bold Text</p>
+  <code>&lt;p class="font-weight-normal"&gt;Normal Text&lt;/p&gt;</code>
+  <p class="font-weight-normal">Normal Text</p>
+  <code>&lt;p class="font-italic"&gt;Italic Text&lt;/p&gt;</code>
+  <p class="font-italic">Italic Text</p>
+  <p class="note">There are a number of font classes to alter fonts</p><br>
 
   <!-- TEXT TRANSFORMS -->
-  <p>MAKE LOWERCASE</p>
-  <p>make uppercase</p>
-  <p>make capitalized</p>
+  <h3>Text Transforms</h3>
+  <code>&lt;p class="text-lowercase"&gt;MAKE LOWERCASE&lt;/p&gt;</code>
+  <p class="text-lowercase">MAKE LOWERCASE</p>
+  <code>&lt;p class="text-uppercase"&gt;make uppercase&lt;/p&gt;</code>
+  <p class="text-uppercase">make uppercase</p>
+  <code>&lt;p class="text-capitalize"&gt;make capitalized&lt;/p&gt;</code>
+  <p class="text-capitalize">make capitalized</p>
+  <p class="note">Class text-xxx is similar to css commands </p><br>
 
   <!-- BLOCKQUOTES -->
-  <blockquote>
+  <h3>Blockquote</h3>
+  <code>&lt;blockquote class="blockquote"&gt;&lt;p&gt;this is a ....&lt;/p&gt;&lt;/blockquote&gt; </code>
+  <blockquote class="blockquote">
     <p>This is a blockquote</p>
   </blockquote>
-
+  <p class="note">Class blockquote makes text more prominent</p><br>
   <!-- BLOCKQUOTE RIGHT ALIGNED -->
-  <blockquote>
+  <h3>Blockquote with right alignment</h3>
+  <code>&lt;blockquote class="blockquote text-right"&gt;&lt;p&gt;this is a ....&lt;/p&gt;&lt;/blockquote&gt; </code>
+  <blockquote class="blockquote text-right">
     <p>This is a blockquote aligned right</p>
   </blockquote>
+  <p class="note">Class blockquote-reverse deprecated use text-right instead</p><br>
 
   <!-- BLOCKQUOTE WITH FOOTER -->
-  <blockquote>
+  <h3>Blockquote with footer</h3>
+  <code>&lt;blockquote class="blockquote text-right"&gt;&lt;p&gt;Lorem ipsum ...&lt;/p&gt;<br>
+    &lt;footer class="blockquote-footer"&gt;Someone ... &lt;/footer&gt;&lt;/blockquote&gt; </code>
+  <blockquote class="blockquote text-right">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
   </blockquote>
-
+  <p class="note">Class blocknote-footer formats text smaller and lighter color...</p><br>
   <!-- LISTS -->
-  <ul>
+  <h3>List Unstyled</h3>
+  <code>&lt;ul class="list-unstyled"&gt;</code>
+  <ul class="list-unstyled">
     <li>Lorem ipsum dolor sit amet.</li>
     <li>Lorem ipsum dolor sit amet.</li>
     <li>Lorem ipsum dolor sit amet.</li>
     <li>Lorem ipsum dolor sit amet.</li>
   </ul>
+  <p class="note">Class list-xxx makes many changes to a list, list-unstyled removes bullets and padding</p><br>
 
   <!-- INLINE LIST -->
-  <ul>
-    <li>Lorem ipsum</li>
-    <li>Lorem ipsum </li>
-    <li>Lorem ipsum </li>
+  <h3>List Inline</h3>
+  <code>&lt;ul class="list-inline"&gt;<br>
+    &lt;li class="list-inline-item"&gt;Lorem ipsum&lt;/&gt;
+  </code>
+  <ul class="list-inline">
+    <li class="list-inline-item">1. Lorem ipsum</li>
+    <li class="list-inline-item">2. Lorem ipsum </li>
+    <li class="list-inline-item">3. Lorem ipsum </li>
   </ul>
+  <p class="note">Class list-inline for the ul and list-inline-item for each li helpfull in making maenu items</p>
 </div>
