@@ -1,29 +1,33 @@
 /* Small devices (landscape phones) */
-
+.reactiveBox{
+  height: 100px;
+  width: 100px;
+  background-color: #333333;
+}
 @media (min-width: 576px) {
-  body{
-    background: red;
-  }
+  .reactiveBox{
+  background: green;
+}
 }
 
 /* Medium devices (tablets) */
 @media (min-width: 768px) {
-  body{
-    background: blue;
+  .reactiveBox{
+    background: yellow;
   }
 }
 
 /* Large devices (desktops) */
 @media (min-width: 992px) {
-  body{
-    background: green;
+  .reactiveBox{
+    background: red;
   }
 }
 
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {
-  body{
-    background: yellow;
+  .reactiveBox{
+    background: blue;
   }
 }
 

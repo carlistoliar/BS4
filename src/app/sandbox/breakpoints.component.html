@@ -2,13 +2,26 @@
   <h1 class="display-5 text-center my-4">Breakpoints</h1>
 
   <!--########################START HERE#########################-->
+  <code>
+    &lt;div class="reactiveBox"&gt;
+    &lt;/div&gt;
+  </code>
+  <div class="reactiveBox"></div>
   <pre>
     <code>
       /* Small devices (landscape phones) */
       @media (min-width: 576px) &#123;
+      ########## this will not work #########
         body&#123;
           background: red;
         &#125;
+      ########## this will not work #########
+
+      ############ this will work ###########
+         .reactiveBox&#123;
+          background: red;
+        &#125;
+      ############ this will work ###########
       &#125;
 
       /* Medium devices (tablets) */
@@ -32,21 +45,10 @@
         &#125;
       &#125;
 
-      /* The given screen size or smaller */
-
-      /* Extra small devices (portrait phones)*/
-      @media (max-width: 575px) &#123;&#125;
-
-      /* Small devices (landscape phones)*/
-      @media (max-width: 767px) &#123;&#125;
-
-      /* Medium devices (tablets)*/
-      @media (max-width: 991px) &#123;&#125;
-
-      /* Large devices (desktops)*/
-      @media (max-width: 1199px) &#123;&#125;
-
     </code>
   </pre>
+  <br>
+  <div class="note">@media css calls will NOT work on elements outside the component that would have to be done with javascript
+    <br> use a service (if you want to implement changes in multiple components, use @HostListener or create an Observable and subscribe... </div>
 
 </div><!-- ./container -->
